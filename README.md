@@ -1,30 +1,28 @@
-BART Summarization Model
+# BART Summarization Model
 
-Overview
+## Overview
 
-This project uses the BART model (facebook/bart-base) to perform text summarization. The model is trained on a reduced CNN/Daily Mail dataset (70% of the original size) to generate concise summaries of long articles.
-You Might Need Extra colab units soo start with less that ( 20% to 30 %)
+This project utilizes the BART model (`facebook/bart-base`) for text summarization. The model has been trained on a reduced CNN/Daily Mail dataset (70% of the original size) to generate concise summaries from lengthy articles. Due to the large model size (approx. 600MB), it cannot be uploaded to GitHub. Instead, a link to the saved model on Google Drive is provided.
 
-Dataset Link : https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail
+**Dataset Link:** [CNN/Daily Mail Dataset] https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail
 
-Setup
+**Note:** You might need additional Colab units; start with 20% to 30% of the dataset for efficiency.
 
-Required Packages: 
-Install the necessary Python packages using pip:
+## Setup
 
+### Required Packages
+
+Install the necessary Python packages using `pip`:
+
+```bash
 pip install transformers
-
 pip install torch==2.2.2
-
 pip install pandas
-
 pip install matplotlib
-
 pip install numpy
-
 pip install seaborn
-
 pip install tensorflow
+```
 
 
 Project Structure
