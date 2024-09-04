@@ -119,7 +119,10 @@ footer {
         <main>
         <form method="post" action="{% url 'home' %}">
             {% csrf_token %}
-            <textarea id="input-text" name="input_text" placeholder="Enter your article here..." > </textarea>
+            <textarea id="input-text" name="input_text" placeholder="Enter your article here..." > 
+                {% if input_text %}
+                {{ input_text}}
+            {% endif %}</textarea>
             <button id="generate-btn" type="submit">Generate Summary</button>
         </form>    
             <section id="result">
