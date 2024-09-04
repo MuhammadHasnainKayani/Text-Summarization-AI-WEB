@@ -3,6 +3,7 @@ BART Summarization Model
 Overview
 
 This project uses the BART model (facebook/bart-base) to perform text summarization. The model is trained on a reduced CNN/Daily Mail dataset (70% of the original size) to generate concise summaries of long articles.
+You Might Need Extra colab units soo start with less that ( 20% to 30 %)
 
 Dataset Link : https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail
 
