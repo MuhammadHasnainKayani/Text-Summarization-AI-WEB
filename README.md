@@ -60,12 +60,3 @@ LinkedIn: https://linkedin.com/in/muhammad-hasnain-kayani-820599273
 
 Email: muhammadhasnainkayani@gmail.com
 
-
-### Explanation:
-- **Overview**: Provides a brief summary of the project.
-- **Setup**: Lists the required packages and installation commands.
-- **Project Structure**: Describes the organization of the project files and where to place saved models.
-- **Training**: Details the training process including model, epochs, optimizer, and loss monitoring.
-- **Testing**: Explains how to load the model and generate summaries.
-- **Usage**: Instructions for training, testing, and deploying the model.
-- **Additional Details**: Information on the dataset and interactive testing.
