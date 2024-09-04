@@ -29,7 +29,7 @@ datamodel_train_test.py: Contains code for data processing, model training, and 
 text_summarization/: Django web application folder.
 text_summarization/: Contains the Django project files.
 models/: Directory with the saved trained BART model.
-Model Size: Model Size is almost 600Mb soo it cant be uplaoded to github Saved Model Link: https://drive.google.com/drive/folders/1ImkdAneUkKKMtZzkD99f2H-wQoX5YVsE?usp=sharing
+Saved Model Link: https://drive.google.com/drive/folders/1ImkdAneUkKKMtZzkD99f2H-wQoX5YVsE?usp=sharing
 
 
 After Training: Place the saved model as follows:
@@ -55,7 +55,9 @@ Additional Details
 Data: Utilizes a reduced CNN/Daily Mail dataset for efficiency.
 Interactive Testing: Allows real-time input of articles and generation of summaries.
 Feel free to adjust any details according to your specific needs!
+
 LinkedIn: https://linkedin.com/in/muhammad-hasnain-kayani-820599273
+
 Email: muhammadhasnainkayani@gmail.com
 
 
