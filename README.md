@@ -37,8 +37,9 @@ text_summarization/: Contains the Django project files.
 models/: Directory with the saved trained BART model.
 
 Model Size is almost 600Mb soo it cant be uplaoded to github
-After training place the saved model as below
+Saved Model Link: https://drive.google.com/drive/folders/1ImkdAneUkKKMtZzkD99f2H-wQoX5YVsE?usp=sharing
 
+After training place the saved model as below
 text_summarization/text_summarization/models/saved_model and saved_tokenizer
 
 
